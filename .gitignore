@@ -217,4 +217,4 @@ pip-log.txt
 #virtualenv things
 Lib/
 Include/
-Scripts
+Scripts/
