@@ -217,3 +217,9 @@ pip-log.txt
 Lib/
 Include/
 Scripts/
+
+#############
+## PyCharm
+#############
+
+.idea/
