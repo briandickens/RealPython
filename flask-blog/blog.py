@@ -11,7 +11,6 @@ DATABASE = 'blog.db'
 USERNAME = 'admin'
 PASSWORD = 'admin'
 SECRET_KEY = 'hard_to_guess'
-#testing
 
 app = Flask(__name__)
 
