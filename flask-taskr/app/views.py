@@ -39,6 +39,6 @@ def login():
             error = 'Invalid Credentials. Please try again'
         else:
             session['logged_in'] = True
-            return redirect(url_for('tsks'))
+            return redirect(url_for('tasks'))
     return render_template('login.html', error=error) 
     

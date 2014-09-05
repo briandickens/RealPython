@@ -7,7 +7,7 @@
 	<body>
 		<div class="page">
 			{% for message in get_flashed_messages() %}
-			<div class="flash">{{ message }</div>
+			<div class="flash">{{ message }}</div>
 			<br />
 			{% endfor %}
 			{% if error %}
