@@ -8,6 +8,7 @@ from flask import Flask, flash, redirect, render_template, request, \
                 session, url_for, g
 from functools import wraps
 from flask.ext.sqlalchemy import SQLAlchemy
+from forms import AddTask
 
 app = Flask(__name__)
 app.config.from_object('config')
