@@ -6,7 +6,7 @@ Create the db for the app.
 @author: bdickens
 '''
 from views import db
-from models import FTasks
+from models import FTasks, User
 from datetime import date
 
 # create the database and the db Table
