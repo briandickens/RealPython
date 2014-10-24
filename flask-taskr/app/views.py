@@ -41,7 +41,7 @@ def login():
         if u is None:
             error = 'Invalid username or password.'
         else:
-            session['logged in'] = True
+            session['logged_in'] = True
             flash('You are logged in. Go crazy.')
             return redirect(url_for('tasks'))
     return render_template('login.html',
